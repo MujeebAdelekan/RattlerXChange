@@ -1,0 +1,132 @@
+ .productInfoHeader {
+    color: black;
+    text-align: center;
+  }
+  
+
+  .mainProductInfo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+  }
+  
+  .productInfoImageButton{
+    height: 450px;
+    width: 400px;
+  }
+  
+  .productInfoImageButton {
+    text-align: center;
+    margin-left: 100px;
+    padding: 100px 100px;
+    margin-top: 15px;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  
+  .productLabels{
+    display: flex;
+    align-content: center;
+    width:700px;
+  }
+
+  .productInfoForm{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width:100%;
+    margin: 10px;
+  }
+  
+  .productInfoField{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  .divider{
+    width: 250px;
+    height: 39px;
+    display: inline-block;
+  }
+  
+  .contactSellerButton{
+    height: 39px;
+    width: 330px;
+    float: right;
+    margin-right: 5px;
+    background-color: #003466;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 1px;
+  }
+
+  .wishlistButton {
+    height: 39px;
+    width: 330px;
+    float: right;
+    margin-right: 5px;
+    background-color: #003466;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 1px;
+  }
+
+  .buttonTextSpace {
+    display: inline-block;
+    width: 10px;
+  }
+  .buttonSpace {
+    display: inline-block;
+    width: 180px;
+  }
+
+  .sellerInfoButtonDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sellerInfoButton {
+    height: 39px;
+    width: 330px;
+    margin-right: 5px;
+    background-color: #003466;
+    text-decoration: none;
+    border: none;
+    color: white;
+    border-radius: 1px;
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .productImageProductInfo{
+    height: 300 px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .imageProductInfo {
+    /*margin-top: 50px;
+    margin-left: 30px;
+    float: center;
+    align-items: center;
+    width: 35%; */
+    width: 400px;
+  }
+
+
+  

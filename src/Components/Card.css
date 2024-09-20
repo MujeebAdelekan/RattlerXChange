@@ -1,0 +1,82 @@
+.CardContainer {
+  display: flex;
+  flex-flow: column;
+  width: 300px;
+  margin: 10px;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.CardContainer:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -1px, 0px);
+}
+
+.CardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+
+.PriceLabel {
+  position: relative;
+}
+
+.PriceLabel::after {
+  content: attr(data-category);
+  margin-top: 10px;
+  bottom: 0;
+  color: white;
+  font-size: 20px;
+  background-color: #003466;
+  left: 0;
+  padding: 10px;
+  margin-left: -40px;
+  border-radius: 2px;
+}
+
+.productTitle {
+  align-self: center;
+  border-top: 1px solid black;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: -7px;
+}
+
+.image {
+  align-self: center;
+  padding-left: 15px;
+}
+
+.cardIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.iconWishlist {
+  margin-right: 40px;
+  font-size: 30px;
+  color: #003466;
+}
+
+.iconWishlist:hover {
+  color: #f2bf49;
+}
+
+.iconEnvelop {
+  margin-left: 40px;
+  font-size: 30px;
+  color: #003466;
+}
+
+.iconEnvelop:hover {
+  color: #f2bf49;
+}

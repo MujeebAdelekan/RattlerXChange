@@ -1,0 +1,101 @@
+.navbar {
+  /* background-color: #003466; */
+  background: rgb(0, 52, 102);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 52, 102, 1) 27%,
+    rgba(242, 191, 73, 1) 89%
+  );
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 999;
+  height: 90px;
+  font-size: 1.2rem;
+}
+
+.LinkBox {
+  display: flex;
+  list-style-type: none;
+  width: 100%;
+}
+
+.RattlerLogo {
+  justify-content: left;
+  padding-right: 30px;
+}
+
+.NavIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.CategoryLinks {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+  margin-left: 300px;
+}
+
+.NavbarRightContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: right;
+  margin-left: 215px;
+}
+
+.link {
+  padding: 10px;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.links:hover {
+  border-bottom: 3px solid white;
+}
+
+.icon {
+  color: white;
+  font-size: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.icon:hover {
+  /* color: #f2bf49; */
+  color: #003466;
+}
+
+.profile {
+  color: white;
+}
+
+/* .RattlerLink {
+  color: white;
+  text-decoration: none;
+} */
+
+.RattlerLogoImg {
+  height: 150px;
+  /* height: 250px; */
+  width: auto;
+  /* margin-left: -10px;
+  padding-top: 8px; */
+}
+
+/* .RattlerLink:hover {
+  border-bottom: 3px solid white;
+} */
+
+.RattlerBox {
+  padding: 10px;
+  width: 200px;
+}
